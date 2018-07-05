@@ -1,0 +1,211 @@
+@charset "utf-8";
+.zt {
+	height: auto;
+	width: 1200px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+}
+.zt .lis ul li{
+	list-style-type: none;
+	float:left;
+	margin-left:10px;
+	text-align:center;
+	line-height:50px;
+	border-radius:25px;
+	background-color:red;
+	box-shadow: 10px 10px 5px #666;
+	
+	
+}
+.zt .z1 .lis ul li a {
+	color: #FFF;
+}
+.zt .z1 .lis ul li a:hover {
+	color: #000;
+}
+.zt .z1 .lis ul li:hover {
+	background-color: #FF0;
+}
+
+
+
+.zt .z1 .lis ul li {
+	height: 40px;
+	width: 70px;
+	border: 1px solid #F00;
+}
+
+.zt .zz {
+	height: 500px;
+	width: 1150px;
+	/* [disabled]border: 1px solid red; */
+	margin: 0 auto;
+}
+.zt .z1 {
+	height: 100px;
+	width: 1178px;
+	
+}
+.zt .zz .l {
+	height: 490px;
+	width: 250px;
+	float: left;
+}
+.zt .zz .zj {
+	float: left;
+	height: 490px;
+	width: 600px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.zt .lunbo {
+	height: 350px;
+	width: 1178px;
+
+}
+.zt .yw {
+	height: 400px;
+	width: 1180px;
+}
+.zt .yw .zjy {
+	float: left;
+	height: 380px;
+	width: 600px;
+	margin-left: 40px;
+}
+.zt .float {
+	height: 240px;
+	width: 1100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.zt .yw .zjl .box {
+	height: 60px;
+	width: 400px;
+	margin-top: 15px;
+}
+
+
+.zt .yw .zjl {
+	height: 380px;
+	width: 400px;
+	float: left;
+	margin-left: 50px;
+}
+
+
+
+
+.zt .zz .r {
+	float: left;
+	height: 490px;
+	width: 250px;
+}
+.zt .zz .l div table tr td .xl {
+	height: 30px;
+	width: 180px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+.zt .zz .l .nw {
+	text-align: center;
+}
+.zt .zz .l .nw table tr td select {
+	height: 30px;
+	width: 180px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.zt .zz .r ul .xc {
+	height: 48px;
+	width: 200px;
+	list-style-type: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	color: #FFF;
+}
+.zt .zz .r .ulbox .xc .font {
+	color: #06F;
+	font-size: 10px;
+}
+.zt .zz .r .ulbox .xc .font:hover {
+	color: #000;
+	font-size: 12.5px;
+}
+.zt .float .cctv hr {
+	color: #03F;
+}
+
+
+
+.zt .zz .r ul .zx label a {
+	float: none;
+	height: 10px;
+	width: 50px;
+}
+.zt .zz .r .ulbox {
+	height: 490px;
+	width: 250px;
+}
+
+
+.zt .zz .r ul .zx {
+	height: 88px;
+	width: 250px;
+	list-style-type: none;
+	font-weight: bold;
+}
+.zt .zz .r .ulbox .zx label {
+	height: 20px;
+	width: 80px;
+	font-size: 10px;
+	padding-right: 80px;
+}
+.zt .zz .r .ulbox .zx p {
+	font-weight: normal;
+	font-style: italic;
+	color: #F00;
+}
+.zt .float .xv {
+	background-color: #060;
+	height: 150px;
+	width: 1099px;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+}
+.zt .float .xv1 {
+	height: 30px;
+	width: 1099px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #000;
+	text-align: center;
+}
+.zt .float .xv1 ul {
+	list-style-type: none;
+	height: 30px;
+	width: 1099px;
+	line-height: 30px;
+	text-align: center;
+}
+.zt .float .xv1 ul li {
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+	font-size: 12px;
+	color: #FFF;
+}
