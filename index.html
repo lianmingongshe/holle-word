@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="indexcss.css" rel="stylesheet" type="text/css" />
+<link href="css/lunbo.css" rel="stylesheet" type="text/css" />
+<script src="jq/jquery.min.js"></script>
+<script src="new/angular.min.js"></script>
+</head>
+
+<body>
+<div class="zt">
+
+<div class="z1">
+<div class="pic" style="width:480px; height:100px;float:left;">
+<img src="img/bz.jpg" width="80" height="80" /><img src="img/logo.jpg" />
+</div>
+
+<div class="lis" style="width:697px; height:100px;float: right" >
+<ul>
+ <li><a href="index.html">首　页</a></li>
+	<li><a href="#">校情总揽</a></li>
+		<li><a href="#">人才培养</a></li>
+			<li><a href="#">科学研究</a></li>
+				<li><a href="#">招生就业</a></li>
+					<li><a href="#">合作交流</a></li>
+                    	<li><a href="#">文化生活</a></li>
+                        	<li><a href="#">信息服务</a></li>
+	  </ul>
+</div>
+</div>
+<div class="lunbo">
+<div class="container">
+            <div class="inner clearfix">
+                <div class="innerwraper"><img src="img/1.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/2.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/3.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/4.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/5.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/6.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/7.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/8.jpg" alt="" /></div>
+                <div class="innerwraper"><img src="img/1.jpg" alt="" /></div>
+            </div>
+            <div class="pagination">
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+            </div>
+            <a href="javascript:void(0)" class="left-arrow">&lt;</a>
+            <a href="javascript:void(0)" class="right-arrow">&gt;</a>
+        </div>
+        <script src="jq/jquery.min.js"></script>
+   	<script src="new/new.js"></script>
+</div>
+<hr />
+<div class="zz">
+<div class="l">
+<div ng-app="myApp" ng-controller="myCtrl"  class="nw" width="240" border="0">
+<table width="257" height="506" border="0">
+  <tr>
+    <td width="251" height="70">
+    <select>
+	<option ng-repeat="x in names"  class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+    <select>
+	<option ng-repeat="x in names1" class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+    <select>
+	<option ng-repeat="x in names2" class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+    <select>
+	<option ng-repeat="x in names3" class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+   <select>
+	<option ng-repeat="x in names4" class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+ <select>
+	<option ng-repeat="x in names5" class="xl">{{x}}</option>
+	</select>
+  </tr>
+  <tr>
+    <td height="70">
+    <select>
+	<option ng-repeat="x in names6" class="xl">{{x}}</option>
+	</select>
+  </tr>
+</table>
+
+
+
+</div>
+
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.names = ["电子信息系", "计算机信息管理", "计算机应用"];
+	 $scope.names1 = ["教育系 ", "数学教育", "语文教育","......."];
+	  $scope.names2 = [" 外语系 ", "商务英语", "英语教育","......."];
+	   $scope.names3 = [" 经济管理系", "物流管理", "酒店管理","......."];
+	    $scope.names4 = ["艺术体育系", "幼师", "体育教育","......."];
+		 $scope.names5 = [" 机电工程系", "电气自动化", "机电一体化","......."];
+		  $scope.names6 = ["马克思主义学院", "马克思主义思想教育", "党员教育","......."];
+});
+</script>
+</div>
+<div class="zj"><img src="img2/0.gif" width="580" height="480" /></div>
+<div class="r">
+<ul class="ulbox">
+<li class="zx"><p>NEWS---- LDpoly</p>    <label><a href="#">  &nbsp;&nbsp;&nbsp;&nbsp;更多》</a></label></li>
+<li class="xc"><a href="#" class="font">1.2018届实习生动员大会在名第108室楼举行.......</a></li>
+<li class="xc"><a href="#"  class="font">2.2019届毕业生回校领取毕业生证书，场面巨大.......</a></li>
+<li class="xc"><a href="#"  class="font">3.学期接近尾声，大家准备复习阶段，迎接期末考试</a></li>
+<li class="xc"><a href="#"  class="font">4.学院召开2019年新专业申报论证工作会议</a></li>
+<li class="xc"><a href="#"  class="font">5.外语系教工党支部举行重温入党誓词宣誓大会</a></li>
+<li class="xc"><a href="#" class="font">6.外语系教工党支部举行重温入党誓词宣誓大会</a></li>
+<li class="xc"><a href="#" class="font">7.罗定职业技术学院“七•一”前夕开展慰问离退休老党员活动</a></li>
+</ul>
+</div>
+</div>
+<div class="yw">
+<div class="zjy"><img src="img/dbindex1.gif" width="580" height="370" usemap="#Map" border="0" />
+  <map name="Map" id="Map">
+    <area shape="rect" coords="5,4,576,368" href="#" />
+  </map>
+</div>
+<div class="zjl">
+		<div class="box"><img src="img/abdv25.jpg" width="400" height="60" usemap="#Map2" border="0" />
+          <map name="Map2" id="Map2">
+            <area shape="rect" coords="5,7,401,60" href="#" />
+          </map>
+		</div>
+      <div class="box"><img src="img/abdv27.jpg" width="400" height="60" usemap="#Map3" border="0" />
+        <map name="Map3" id="Map3">
+          <area shape="rect" coords="8,6,386,55" href="#" />
+        </map>
+      </div>
+      <div class="box"><img src="img/adv26.jpg" alt="" width="400" height="60" usemap="#Map4" border="0" />
+        <map name="Map4" id="Map4">
+          <area shape="rect" coords="12,7,385,59" href="#" />
+        </map>
+      </div>
+      <div class="box"><img src="img/abdv10.jpg" width="400" height="60" /></div>
+      <div class="box"><img src="img/abdv28.jpg" width="400" height="60" usemap="#Map5" border="0" />
+        <map name="Map5" id="Map5">
+          <area shape="rect" coords="10,9,403,67" href="#" />
+        </map>
+      </div>
+</div>
+</div>
+<div class="float">
+<div class="xv1">
+<ul>
+<li>数字化校园</li>
+<li>实践基地</li>
+<li>数字图书馆</li>
+<li>校园认证客户端 </li>
+<li>VPN使用说明</li>
+<li>学费查询 </li>
+<li>成绩查询</li>
+</ul>
+</div>
+<div class="xv">
+<p class="p"> 学院地址：广东省罗定市西门岗5号    邮编：527200    邮箱：luodingpoly@126.com     </p>
+<p class="p">学院办公室电话：0766-3782736    招生咨询电话：0766-3782735/3782830    就业咨询电话：0766-3782737 </p>
+<p class="p">版权所有 © 316信息管理魏志康    制作单位：信息化服务中心 粤ICP备14073447号  粤公网安备 44538102000007号</p>
+</div>
+</div>
+</div>
+</body>
+</html>
